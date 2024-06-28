@@ -1,0 +1,861 @@
+#tasksss
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Greet Visitor</title>
+</head>
+<body>
+
+<script>
+var visitorName = prompt("Please enter your name:");
+
+var greeting = "Hello, " + visitorName + "! Welcome to our website!";
+
+alert(greeting);
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 20</title>
+</head>
+<body>
+    <script>
+        document.write("<h1>Rules for naming JS variables</h1>");
+        document.write("Variable names can only contain letters, numbers, dollar signs, and underscores. For example $my_1stVariable<br>");
+        document.write("Variables must begin with a letter, dollar sign, or underscore. For example $name, _name, or name<br>");
+        document.write("Variable names are case sensitive<br>");
+        document.write("Variable names should not be JS keywords<br>");
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Declare and Assign Variable</title>
+</head>
+<body>
+
+<script>
+
+var myName = "Ramsha Ahmed";
+
+console.log("My full name is:", myName);
+</script>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Hello World in Alert Box</title>
+</head>
+<body>
+
+<script>
+
+var message = "Hello, World!";
+
+
+alert(message);
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Student Bio Data</title>
+</head>
+<body>
+
+<script>
+
+var firstName = "Ramsha";
+var lastName = "Ahmed";
+var age = 20;
+var city = "Karachi";
+var country = "Pakistan";
+
+
+var bioData = "Name: " + firstName + " " + lastName + "\n";
+bioData += "Age: " + age + "\n";
+bioData += "City: " + city + "\n";
+bioData += "Country: " + country;
+
+
+alert(bioData);
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Email Address in Alert Box</title>
+</head>
+<body>
+
+<script>
+
+var email = "ramsha123@gmail.com";
+
+
+alert("Email Address: " + email);
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 22</title>
+</head>
+<body>
+    <script>
+        var num1 = 20;
+        var num2 = 4;
+        
+        var subtract = num1 - num2;
+        document.write("The difference of " + num1 + " and " + num2 + " is " + subtract + "<br>");
+
+        var multiply = num1 * num2;
+        document.write("The product of " + num1 + " and " + num2 + " is " + multiply + "<br>");
+
+        var divide = num1 / num2;
+        document.write("The quotient of " + num1 + " and " + num2 + " is " + divide + "<br>");
+
+        var modulus = num1 % num2;
+        document.write("The modulus of " + num1 + " and " + num2 + " is " + modulus);
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 21</title>
+</head>
+<body>
+    <script>
+        var num1 = 5;
+        var num2 = 10;
+        var sum = num1 + num2;
+        document.write("The sum of " + num1 + " and " + num2 + " is " + sum);
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 18</title>
+</head>
+<body>
+    <script>
+        var var1 = 1, var2 = 2, var3 = 3;
+        document.write(var1 + ", " + var2 + ", " + var3);
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 17</title>
+</head>
+<body>
+    <script>
+        var visitorName = "Ramsha Ahmed";
+        var productTitle = "kurtees";
+        var quantity = 5;
+        document.write(visitorName + " ordered " + quantity + " " + productTitle + "(s) on XYZ Clothing store");
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 16</title>
+</head>
+<body>
+    <script>
+        var birthYear = 2000;
+        document.write("My birth year is " + birthYear);
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 15</title>
+</head>
+<body>
+    <script>
+        var visits = localStorage.getItem('visits') || 0;
+        visits++;
+        localStorage.setItem('visits', visits);
+        document.write("You have visited this site " + visits + " times");
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 14</title>
+</head>
+<body>
+    <script>
+        var age = 20;
+        alert("Your age is " + age);
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 13</title>
+</head>
+<body>
+    <script>
+        var myString = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
+        alert(myString);
+        document.write(myString);
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 12</title>
+</head>
+<body>
+    <script>
+        document.write("This is displayed in the browser through JS");
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+</head>
+<body>
+    <script>
+        var secretNumber = Math.floor(Math.random() * 10) + 1;
+        var guess = parseInt(prompt("Guess the secret number (1-10):"));
+        if (guess === secretNumber) {
+            alert("Bingo! Correct answer");
+        } else if (guess + 1 === secretNumber) {
+            alert("Close enough to the correct answer");
+        } else {
+            alert("Try again!");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 6</title>
+</head>
+<body>
+    <script>
+        var number = parseInt(prompt("Enter a number:"));
+        if (number % 3 === 0) {
+            alert(number + " is divisible by 3");
+        } else {
+            alert(number + " is not divisible by 3");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 7</title>
+</head>
+<body>
+    <script>
+        var number = parseInt(prompt("Enter a number:"));
+        if (number % 2 === 0) {
+            alert(number + " is an even number");
+        } else {
+            alert(number + " is an odd number");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 8</title>
+</head>
+<body>
+    <script>
+        var temperature = parseInt(prompt("Enter the temperature:"));
+        if (temperature > 40) {
+            alert("It is too hot outside.");
+        } else if (temperature > 30) {
+            alert("The Weather today is Normal.");
+        } else if (temperature > 20) {
+            alert("Today’s Weather is cool.");
+        } else if (temperature > 10) {
+            alert("OMG! Today’s weather is so Cool.");
+        } else {
+            alert("It's very cold outside.");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 9</title>
+</head>
+<body>
+    <script>
+        var num1 = parseFloat(prompt("Enter the first number:"));
+        var num2 = parseFloat(prompt("Enter the second number:"));
+        var operation = prompt("Enter the operation (+, -, *, /, %):");
+        var result;
+        
+        if (operation === "+") {
+            result = num1 + num2;
+        } else if (operation === "-") {
+            result = num1 - num2;
+        } else if (operation === "*") {
+            result = num1 * num2;
+        } else if (operation === "/") {
+            result = num1 / num2;
+        } else if (operation === "%") {
+            result = num1 % num2;
+        } else {
+            alert("Invalid operation");
+        }
+        
+        if (result !== undefined) {
+            alert("The result of " + num1 + " " + operation + " " + num2 + " is " + result);
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+</head>
+<body>
+    <script>
+        var secretNumber = Math.floor(Math.random() * 10) + 1;
+        var guess = parseInt(prompt("Guess the secret number (1-10):"));
+        if (guess === secretNumber) {
+            alert("Bingo! Correct answer");
+        } else if (guess + 1 === secretNumber) {
+            alert("Close enough to the correct answer");
+        } else {
+            alert("Try again!");
+        }
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4f</title>
+</head>
+<body>
+    <script>
+        if ("car" < "cat") {
+            alert("car is smaller than cat");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4e</title>
+</head>
+<body>
+    <script>
+        if (true) {
+            alert("True");
+        }
+        if (false) {
+            alert("False");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4d</title>
+</head>
+<body>
+    <script>
+        var materialCost = 20000;
+        var laborCost = 2000;
+        var totalCost = materialCost + laborCost;
+        if (totalCost === laborCost + materialCost) {
+            alert("The cost equals");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4c</title>
+</head>
+<body>
+    <script>
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4b</title>
+</head>
+<body>
+    <script>
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4a</title>
+</head>
+<body>
+    <script>
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 3</title>
+</head>
+<body>
+    <script>
+        var fuel = parseFloat(prompt("Enter remaining fuel in car (in litres):"));
+        if (fuel < 0.25) {
+            alert("Please refill the fuel in your car");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2</title>
+</head>
+<body>
+    <script>
+        var gender = prompt("Enter your gender:");
+        if (gender.toLowerCase() === "male") {
+            alert("Good Morning Sir");
+        } else if (gender.toLowerCase() === "female") {
+            alert("Good Morning Ma’am");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1</title>
+</head>
+<body>
+    <script>
+        var city = prompt("Enter your city name:");
+        if (city.toLowerCase() === "karachi") {
+            alert("Welcome to city of lights");
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 5</title>
+</head>
+<body>
+    <script>
+        var subject1 = prompt("Enter the name of first subject:");
+        var subject2 = prompt("Enter the name of second subject:");
+        var subject3 = prompt("Enter the name of third subject:");
+        
+        var totalMarks = 100;
+        
+        var obtainedMarks1 = parseInt(prompt("Enter obtained marks for " + subject1 + ":"));
+        var obtainedMarks2 = parseInt(prompt("Enter obtained marks for " + subject2 + ":"));
+        var obtainedMarks3 = parseInt(prompt("Enter obtained marks for " + subject3 + ":"));
+        
+        var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+        var percentage = (totalObtainedMarks / (totalMarks * 3)) * 100;
+        
+        document.write("<table border='1'>");
+        document.write("<tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th></tr>");
+        document.write("<tr><td>" + subject1 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks1 + "</td></tr>");
+        document.write("<tr><td>" + subject2 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks2 + "</td></tr>");
+        document.write("<tr><td>" + subject3 + "</td><td>" + totalMarks + "</td><td>" + obtainedMarks3 + "</td></tr>");
+        document.write("<tr><td colspan='2'>Total Obtained Marks</td><td>" + totalObtainedMarks + "</td></tr>");
+        document.write("<tr><td colspan='2'>Percentage</td><td>" + percentage.toFixed(2) + "%</td></tr>");
+        document.write("</table>");
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 4</title>
+</head>
+<body>
+    <script>
+        var number = prompt("Enter a number:", 5);
+        number = parseInt(number);
+        document.write("Multiplication table of " + number + "<br>");
+        for (var i = 1; i <= 10; i++) {
+            document.write(number + " x " + i + " = " + (number * i) + "<br>");
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 3</title>
+</head>
+<body>
+    <script>
+        var name = prompt("Enter your name:");
+        alert("Hello, " + name + "!");
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2</title>
+</head>
+<body>
+    <script>
+        var a = 2, b = 1;
+        var result = --a - --b + ++b + b--;
+        
+        document.write("a is: " + a + "<br>");
+        document.write("b is: " + b + "<br>");
+        document.write("result is: " + result + "<br>");
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 1</title>
+</head>
+<body>
+    <script>
+        var number = 10;
+        document.write("Result:<br>");
+        document.write("The value of a is: " + number + "<br>");
+        document.write("------------------------------<br>");
+        
+        document.write("The value of ++a is: " + (++number) + "<br>");
+        document.write("Now the value of a is: " + number + "<br><br>");
+        
+        document.write("The value of a++ is: " + (number++) + "<br>");
+        document.write("Now the value of a is: " + number + "<br><br>");
+        
+        document.write("The value of --a is: " + (--number) + "<br>");
+        document.write("Now the value of a is: " + number + "<br><br>");
+        
+        document.write("The value of a-- is: " + (number--) + "<br>");
+        document.write("Now the value of a is: " + number + "<br>");
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Switch Statement Example</title>
+</head>
+<body>
+    <script>
+        var day = prompt("");
+
+        switch(day.toLowerCase()) {
+            case "monday":
+                alert("Today is Monday!");
+                break;
+            case "tuesday":
+                alert("Today is Tuesday!");
+                break;
+            case "wednesday":
+                alert("Today is Wednesday!");
+                break;
+            case "thursday":
+                alert("Today is Thursday!");
+                break;
+            case "friday":
+                alert("Today is Friday!");
+                break;
+            case "saturday":
+                alert("Today is Saturday!");
+                break;
+            case "sunday":
+                alert("Today is Sunday!");
+                break;
+            default:
+                alert("Invalid day. Please enter a valid day of the week.");
+                break;
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promises in JavaScript</title>
+</head>
+<body>
+    <script>
+    
+        let myPromise = new Promise((resolve, reject) => {
+           
+            setTimeout(() => {
+                let success = true; 
+                if (success) {
+                    resolve("Operation was successful!");
+                } else {
+                    reject("Operation failed!");
+                }
+            }, 2000);
+        });
+
+       
+        myPromise
+            .then((message) => {
+               
+                alert(message); 
+            })
+            .catch((errorMessage) => {
+                
+                alert(errorMessage);
+            });
+
+        console.log("Promise is pending...");
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Callback Function in JavaScript</title>
+</head>
+<body>
+    <script>
+        
+        function greet(name, callback) {
+            console.log("Hello " + name);
+            callback();
+        }
+
+       
+        function sayGoodbye() {
+            console.log("Goodbye!");
+        }
+
+       
+        greet("Ramsha", sayGoodbye);
+    </script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ternary Operator Example</title>
+</head>
+<body>
+    <script>
+        var age = prompt("Enter your age:");
+        var message = age >= 18 ? "You are an adult." : "You are a minor.";
+        alert(message);
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Message</title>
+</head>
+<body>
+
+<script>
+
+var message = "Error plz try again later";
+
+alert(message);
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Message with Line Breaks</title>
+</head>
+<body>
+
+<script>
+
+var message = "Welcome to our website!\n";
+message += "Feel free to explore!";
+
+alert(message);
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Display Messages in Sequence</title>
+</head>
+<body>
+
+<script>
+
+var messages = [
+    "Welcome to our website!",
+    "We hope you are fine.",
+    "Feel free to contact!"
+];
+
+function displayMessages() {
+   
+    for (var i = 0; i < messages.length; i++) {
+
+        setTimeout(function(index) {
+            return function() {
+                alert(messages[index]);
+            };
+        }(i), i * 2000); 
+    }
+}
+
+
+displayMessages();
+</script>
+
+</body>
+</html>
+
